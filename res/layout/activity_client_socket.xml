@@ -9,7 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/input_message"
-        android:layout_alignParentTop="true" >
+        android:layout_alignParentTop="true"
+        android:layout_margin="3dp"
+        android:background="#FF896167" >
 
         <TextView
             android:id="@+id/show_chat"
