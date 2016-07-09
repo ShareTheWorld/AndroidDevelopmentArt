@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/standard"
+        style="@style/StartModeTheme"
+        android:text="Start Standard Activity" />
+
+    <Button
+        android:id="@+id/single_top"
+        style="@style/StartModeTheme"
+        android:text="Start SingleTop Activity" />
+
+    <Button
+        android:id="@+id/singele_task"
+        style="@style/StartModeTheme"
+        android:text="Start SingleTask Activity" />
+
+    <Button
+        android:id="@+id/single_instace"
+        style="@style/StartModeTheme"
+        android:text="Start SingleInstance Activity" />
+    <TextView
+        android:id="@+id/show_stack"
+        style="@style/StartModeTheme"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

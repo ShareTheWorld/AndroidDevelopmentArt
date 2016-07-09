@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffce7b"
+    tools:context="com.fht.ada.MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dividerPadding="5dp" >
+
+                <Button
+                    android:id="@+id/start_start_mode_demo"
+                    style="@style/TableTheme"
+                    android:onClick="startDemo"
+                    android:text="启动模式" />
+
+                <Button
+                    android:id="@+id/start_client_aidl"
+                    style="@style/TableTheme"
+                    android:text="AIDL" />
+
+                <Button
+                    android:id="@+id/start_client_messenger"
+                    style="@style/TableTheme"
+                    android:text="Messenger" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dividerPadding="5dp" >
+
+                <Button
+                    android:id="@+id/start_client_socket"
+                    style="@style/TableTheme"
+                    android:text="Socket" />
+
+                <Button
+                    style="@style/TableTheme"
+                    android:text="2  2" />
+
+                <Button
+                    style="@style/TableTheme"
+                    android:text="2  3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dividerPadding="5dp" >
+
+                <Button
+                    style="@style/TableTheme"
+                    android:text="3  1" />
+
+                <Button
+                    style="@style/TableTheme"
+                    android:text="3  2" />
+
+                <Button
+                    style="@style/TableTheme"
+                    android:text="3  3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dividerPadding="5dp" >
+
+                <Button
+                    style="@style/TableTheme"
+                    android:text="4  1" />
+
+                <Button
+                    style="@style/TableTheme"
+                    android:text="4  2" />
+
+                <Button
+                    style="@style/TableTheme"
+                    android:text="4  3" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
