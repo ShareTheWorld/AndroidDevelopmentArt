@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">"AndroidDevelopmentArt "</string>
+    <string name="app_name">"AndroidDevelopmentArt"</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="activity_label_velocity_tracker">"VelocityTracker"</string>
 
 </resources>

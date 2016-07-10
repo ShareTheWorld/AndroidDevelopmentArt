@@ -46,8 +46,9 @@
                     android:text="Socket" />
 
                 <Button
+                    android:id="@+id/start_velocity_tracker"
                     style="@style/TableTheme"
-                    android:text="2  2" />
+                    android:text="VelocityTracker" />
 
                 <Button
                     style="@style/TableTheme"

@@ -36,6 +36,9 @@ public class MainActivity extends Activity {
 		case R.id.start_client_socket:
 			startActivity(com.fht.ada.socket.ClientActivity.class);
 			break;
+		case R.id.start_velocity_tracker:
+			startActivity(com.fht.ada.view.VelocityTrackerActivity.class);
+			break;
 		}
 	}
 
