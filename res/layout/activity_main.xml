@@ -51,8 +51,9 @@
                     android:text="VelocityTracker" />
 
                 <Button
+                    android:id="@+id/start_geturer_detector"
                     style="@style/TableTheme"
-                    android:text="2  3" />
+                    android:text="GetureDetector" />
             </TableRow>
 
             <TableRow

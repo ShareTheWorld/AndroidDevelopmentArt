@@ -39,6 +39,10 @@ public class MainActivity extends Activity {
 		case R.id.start_velocity_tracker:
 			startActivity(com.fht.ada.view.VelocityTrackerActivity.class);
 			break;
+		case R.id.start_geturer_detector:
+			startActivity(com.fht.ada.view.gesture.detector.GestureDetectorActivity.class);
+			break;
+			
 		}
 	}
 

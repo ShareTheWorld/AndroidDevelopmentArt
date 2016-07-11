@@ -67,6 +67,11 @@
             android:label="@string/activity_label_velocity_tracker"
             android:launchMode="standard" >
         </activity>
+        <activity
+            android:name="com.fht.ada.view.gesture.detector.GestureDetectorActivity"
+            android:label="@string/activity_label_gesture_detector"
+            android:launchMode="standard" >
+        </activity>
 
         <service
             android:name="com.fht.ada.aidl.BookManagerService"
