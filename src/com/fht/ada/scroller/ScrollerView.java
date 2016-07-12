@@ -43,7 +43,6 @@ public class ScrollerView extends View {
 
 	@Override
 	public void computeScroll() {
-		//¹Ì¶¨Ð´·¨
 		if (mScroller.computeScrollOffset()) {
 			scrollTo(mScroller.getCurrX(), mScroller.getCurrY());
 			postInvalidate();
