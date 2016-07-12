@@ -42,7 +42,10 @@ public class MainActivity extends Activity {
 		case R.id.start_geturer_detector:
 			startActivity(com.fht.ada.view.gesture.detector.GestureDetectorActivity.class);
 			break;
-			
+		case R.id.start_scroller:
+			startActivity(com.fht.ada.scroller.ScrollerActivity.class);
+			break;
+
 		}
 	}
 

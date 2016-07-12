@@ -62,8 +62,9 @@
                 android:dividerPadding="5dp" >
 
                 <Button
+                    android:id="@+id/start_scroller"
                     style="@style/TableTheme"
-                    android:text="3  1" />
+                    android:text="Scroller" />
 
                 <Button
                     style="@style/TableTheme"
