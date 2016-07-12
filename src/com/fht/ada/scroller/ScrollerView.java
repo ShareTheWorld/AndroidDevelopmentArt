@@ -19,7 +19,7 @@ public class ScrollerView extends View {
 	public ScrollerView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		mScroller = new Scroller(context);
-		
+
 	}
 
 	public ScrollerView(Context context) {
@@ -28,11 +28,11 @@ public class ScrollerView extends View {
 
 	@Override
 	protected void onDraw(Canvas canvas) {
-		paint.setColor((int)(0xffd71345*Math.random()));
+		paint.setColor((int) (0xffd71345 * Math.random()));
 		canvas.drawRect(300, 400, 400, 500, paint);
 	}
 
-	public void smoothScrollT(int destX, int destY,int duration) {
+	public void smoothScrollT(int destX, int destY, int duration) {
 		int scrollX = getScrollX();
 		int deltaX = destX - scrollX;
 		int scrollY = getScrollY();
@@ -43,6 +43,7 @@ public class ScrollerView extends View {
 
 	@Override
 	public void computeScroll() {
+		//¹Ì¶¨Ð´·¨
 		if (mScroller.computeScrollOffset()) {
 			scrollTo(mScroller.getCurrX(), mScroller.getCurrY());
 			postInvalidate();
