@@ -7,5 +7,6 @@
     <string name="activity_label_velocity_tracker">"VelocityTracker"</string>
     <string name="activity_label_gesture_detector">"GestureDetector"</string>
     <string name="activity_label_scroller">"Scroller"</string>
+    <string name="activity_label_touch">"Touch"</string>
 
 </resources>

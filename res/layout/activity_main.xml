@@ -67,8 +67,9 @@
                     android:text="Scroller" />
 
                 <Button
+                    android:id="@+id/start_touch"
                     style="@style/TableTheme"
-                    android:text="3  2" />
+                    android:text="Touch" />
 
                 <Button
                     style="@style/TableTheme"

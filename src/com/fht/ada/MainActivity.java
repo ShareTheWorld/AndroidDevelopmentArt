@@ -45,7 +45,9 @@ public class MainActivity extends Activity {
 		case R.id.start_scroller:
 			startActivity(com.fht.ada.scroller.ScrollerActivity.class);
 			break;
-
+		case R.id.start_touch:
+			startActivity(com.fht.ada.touch.TouchActivity.class);
+			break;
 		}
 	}
 

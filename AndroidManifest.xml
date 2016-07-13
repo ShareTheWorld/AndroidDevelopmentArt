@@ -77,6 +77,11 @@
             android:label="@string/activity_label_scroller"
             android:launchMode="standard" >
         </activity>
+        <activity
+            android:name="com.fht.ada.touch.TouchActivity"
+            android:label="@string/activity_label_touch"
+            android:launchMode="standard" >
+        </activity>
 
         <service
             android:name="com.fht.ada.aidl.BookManagerService"
