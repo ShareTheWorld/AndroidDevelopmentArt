@@ -78,7 +78,7 @@
             android:launchMode="standard" >
         </activity>
         <activity
-            android:name="com.fht.ada.touch.TouchActivity"
+            android:name="com.fht.ada.touch.TouchFragmentActivity"
             android:label="@string/activity_label_touch"
             android:launchMode="standard" >
         </activity>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFB2D235" >
+
+        <TextView
+            android:id="@+id/page_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="switchPage"
+            android:padding="5dp"
+            android:text="PageOne"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#FFB7BA6B" />
+
+        <TextView
+            android:id="@+id/page_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="switchPage"
+            android:padding="5dp"
+            android:text="PageTwo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#FFB7BA6B" />
+
+        <TextView
+            android:id="@+id/page_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="switchPage"
+            android:padding="5dp"
+            android:text="PageThree"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp" >
+
+        <TextView
+            android:id="@+id/indicate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF7FB80E" />
+    </FrameLayout>
+
+    <com.fht.ada.touch.MyHorizontalScrollView
+        android:id="@+id/horizontal_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:id="@+id/fragment_page_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1000dp"
+                            android:background="#494e8f"
+                            android:gravity="center"
+                            android:text="PageOne" />
+                    </FrameLayout>
+                </ScrollView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fragment_page_two"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1000dp"
+                            android:background="#585eaa"
+                            android:gravity="center"
+                            android:text="PageTwo" />
+                    </FrameLayout>
+                </ScrollView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fragment_page_three"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="1000dp"
+                            android:background="#6950a1"
+                            android:gravity="center"
+                            android:text="PageThree" />
+                    </FrameLayout>
+                </ScrollView>
+            </FrameLayout>
+        </LinearLayout>
+    </com.fht.ada.touch.MyHorizontalScrollView>
+
+</LinearLayout>
